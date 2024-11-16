@@ -1,0 +1,51 @@
+{
+  "name": "cbundle",
+  "version": "1.0.0",
+  "description": "A CLI tool for consolidating a codebase into a single, organized text file for easy sharing with ChatGPT or other LLMs.",
+  "main": "dist/index.js",
+  "bin": {
+    "cbundle": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepare": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "codebundle",
+    "cbundle",
+    "CLI",
+    "codebase",
+    "consolidate",
+    "documentation",
+    "review",
+    "ChatGPT",
+    "LLM",
+    "language model",
+    "AI"
+  ],
+  "author": "Sahil Jani",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^14.17.0",
+    "typescript": "^4.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahiljani/cbundle.git"
+  },
+  "homepage": "https://github.com/sahiljani/cbundle#readme",
+  "bugs": {
+    "url": "https://github.com/sahiljani/cbundle/issues"
+  }
+}
