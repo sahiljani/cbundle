@@ -1,6 +1,6 @@
 {
   "name": "cbundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool for consolidating a codebase into a single, organized text file for easy sharing with ChatGPT or other LLMs.",
   "main": "dist/index.js",
   "bin": {
@@ -29,6 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^10.0.0",
+    "ignore": "^6.0.2",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
