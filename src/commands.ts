@@ -1,6 +1,6 @@
 export function displayHelp(): void {
     console.log(`
-      Usage: txtit [options] <directory>
+      Usage: cbundle [options] <directory>
       Options:
         -i, --include     Patterns to include
         -e, --exclude     Patterns to exclude
